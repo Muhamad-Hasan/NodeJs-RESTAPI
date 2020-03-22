@@ -1,0 +1,79 @@
+GET http://localhost:3000/account
+###
+GET http://localhost:3000/remmitance
+###
+POST http://localhost:3000/remmitance
+Content-Type: application/json
+
+{
+    "country": "hggj",
+    "location": "sky",
+    "amount": "hg",
+    "tocountry": "pakistan",
+    "recivecurrencyin": "pkr"
+}
+###
+http://localhost:3000/remmitance/last
+###
+http://localhost:3000/news/5d9325f373eb5a291c77e18f
+
+###
+POST http://localhost:3000/account
+Content-Type: application/json
+
+{
+    "fullname": "Muhammad hassan",
+    "email":"sky@gmail.com",
+    "password":"abc",
+    "country":"pakistan",
+    "state":"sindh",
+    "city":"karachi",
+    "postalCode":"0272980"
+}
+
+###
+POST http://localhost:3000/users/signup
+Content-Type: application/json
+
+{
+    "username": "Muhammad hassan",
+    "password":"abc",
+    
+}
+
+
+###
+
+DELETE http://localhost:3000/account
+
+###
+POST http://localhost:3000/users/signup
+Content-Type: application/json
+{
+    "username":"hassjnfcsdj",
+    "password":"abc"
+}
+###
+get http://localhost:3000/user/logout
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+    "username" : "mujk",
+    "password" : "abc",
+
+}
+
+####
+
+	"email":"hassan@gmail.com",
+	"password":"abc",
+    "country":"pak",
+	"city":"karachi",
+	"state":"pk",
+	"fullname":"hassan",
+	"postalCode":123
+
+###
